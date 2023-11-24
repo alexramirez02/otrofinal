@@ -9,7 +9,7 @@ const gestion = () => {
           <Link href= "/" >
             <span> Home </span>
             </Link>
-        <div className=" flex flex-col h-screem w-full items-center justify-center ">Gestion
+        <div className=" flex flex-col h-screen w-full items-center justify-center ">Gestión
       </div>
 
         </section>

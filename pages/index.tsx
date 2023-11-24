@@ -1,10 +1,10 @@
-import { NavegadorCard } from "@/componentes/card";
+import { NavegadorCard } from "@/components/ui/Navbars/card";
 
 
 const Home=()=> {
   return (
     
-      <main className=" flex flex-col h-screem w- full items-center justify-center gap-4" >
+      <main className=" flex flex-col h-screen w- full items-center justify-center gap-4" >
         <h1> Proyecto</h1>
         <div className=" flex gap-4">
         <NavegadorCard  titulo="Materiales"

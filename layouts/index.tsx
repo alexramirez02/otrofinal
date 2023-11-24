@@ -1,16 +1,17 @@
-import { Navbar } from "@/componentes/Navbars";
-
+import { Navbar } from "@/components/ui/Navbars";
+import { ToastContainer } from 'react-toastify';
 
 
 interface Layoutprops{
   children: React.ReactNode;
 }
 const Layout=({children}:Layoutprops)=>{
-return(
+return (
   <main>
-    <Navbar/>
+    <Navbar />
     {children}
-    </main>
-)
+    <ToastContainer />
+  </main>
+);
 };
 export {Layout};
