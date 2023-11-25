@@ -3,10 +3,13 @@ import Link from 'next/link';
 import { useState } from 'react';
 // eslint-disable-next-line import/no-unresolved
 import Avatar from 'imagenes/Avatarcrud.png';
+import { BtnAuth } from '@/components/btn-auth';
 // import { useRouter } from 'next/router';
 
 const Navbar = () => {
+
   const [isToggleOpen, setIsToggleOpen] = useState(false);
+
 
   return (
     <div className='bg-red-500'>
@@ -89,6 +92,7 @@ const Navbar = () => {
               <NavbarLink href='/salidas' title=' Salida' />
               <NavbarLink href='/entradas' title=' Entrada' />
               <NavbarLink href='/gestion' title=' Gestión' />
+              <BtnAuth/>
             </ul>
             <div className='ml-auto flex items-center px-6 lg:ml-0 lg:p-0'>
               {/*        <!-- Avatar --> */}
